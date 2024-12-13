@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        .cv-container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #bfc2c4;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+        }
+        .cv-sidebar {
+            background-color: #2c3e50;
+            color: #ffffff;
+            width: 35%;
+            padding: 30px;
+            text-align: center;
+        }
+        .cv-sidebar img {
+            width: 150px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #272525;
+        }
+        .cv-sidebar h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .cv-sidebar h4 {
+            font-size: 1rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        .cv-sidebar .contact-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .cv-sidebar .contact-info p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        .cv-main {
+            width: 65%;
+            padding: 30px;
+        }
+        .cv-main h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        .cv-main section {
+            margin-bottom: 20px;
+        }
+        .cv-main section h4 {
+            font-size: 1.2rem;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        .cv-main section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cv-main section ul li {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .cv-main .campus-info {
+            margin-top: 30px;
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .cv-main .campus-info h3 {
+            color: #52756e;
+        }
+        .cv-main .campus-info p {
+            font-size: 0.9rem;
+            margin: 10px 0;
+        }
+        .cv-main .organization-info {
+            margin-top: 30px;
+            background: #a6b0b1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .cv-main .organization-info h3 {
+            color: #476070;
+        }
+        .cv-main .organization-info ul {
+            margin-top: 10px;
+            list-style-type: square;
+        }
+        .cv-main .organization-info ul li {
+            font-size: 0.9rem;
+            margin: 8px 0;
+        }
+        .cv-sidebar .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 20px;
+            border-bottom: 2px dashed #b9a8a8;
+            padding-bottom: 5px;
+        }
+        .cv-sidebar .skills,
+        .cv-sidebar .hobbies,
+        .cv-sidebar .languages {
+            margin-top: 10px;
+            text-align: left;
+        }
+        .cv-sidebar .skills ul,
+        .cv-sidebar .hobbies ul,
+        .cv-sidebar .languages ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cv-sidebar .skills ul li,
+        .cv-sidebar .hobbies ul li,
+        .cv-sidebar .languages ul li {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+    </style>
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Suci Khairunnisa",
+        "jobTitle": "Mahasiswa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Tangerang",
+          "addressRegion": "Banten",
+          "postalCode": "15730",
+          "addressCountry": "Indonesia"
+        },
+        "email": "mailto:sucikhairunnisa005@gmail.com",
+        "telephone": "0857-7654-2628",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "SMA Negeri 1 Kabupaten Tangerang",
+            "address": "Kabupaten Tangerang, Banten",
+            "sameAs": "https://example.com/sma1kabtangerang"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yatsi Madani",
+            "address": "Jl. Aria Santika No.40A, Margasari, Karawaci, Kota Tangerang, Banten",
+            "sameAs": "https://example.com/universitasyatsimadani"
+          }
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "PT. Adis Dimension Footwear",
+          "sameAs": "https://example.com/adisfootwear"
+        },
+        "knowsAbout": ["Microsoft Office", "Desain Grafis", "HTML Dasar", "CSS Dasar", "PHP Dasar", "Canva"],
+        "hobbies": ["Membaca", "Menulis", "Menonton Film"],
+        "knowsLanguage": [
+          {
+            "@type": "Language",
+            "name": "Bahasa Indonesia",
+            "proficiencyLevel": "Fluent"
+          },
+          {
+            "@type": "Language",
+            "name": "Bahasa Inggris",
+            "proficiencyLevel": "Basic"
+          }
+        ],
+        "memberOf": [
+          {
+            "@type": "Organization",
+            "name": "Himpunan Mahasiswa Komputer (Himakom)",
+            "role": "Anggota Divisi Akademik",
+            "startDate": "2024"
+          },
+          {
+            "@type": "Organization",
+            "name": "Pergerakan Mahasiswa Islam Indonesia",
+            "role": "Anggota Aktif",
+            "startDate": "2021",
+            "endDate": "2023"
+          },
+          {
+            "@type": "Organization",
+            "name": "Badan Eksekutif Mahasiswa",
+            "role": "Anggota Kementrian Eksternal",
+            "startDate": "2023",
+            "endDate": "2023"
+          }
+        ]
+      }      
+</head>
+<body>
+    <div class="cv-container">
+        <div class="cv-sidebar">
+            <img src="suci.jpg" alt="Foto Profil">
+            <h2>Suci Khairunnisa</h2>
+            <h4>Mahasiswa</h4>
+            <div class="contact-info">
+                <p><strong>Telepon:</strong> 0857-7654-2628</p>
+                <p><strong>Email:</strong> sucikhairunnisa005@gmail.com</p>
+                <p><strong>Alamat:</strong> Tangerang, Indonesia, 15730</p>
+            </div>
+            <div class="section-title">Keahlian</div>
+            <div class="skills">
+                <ul>
+                    <li>Microsoft Office</li>
+                    <li>Desain Grafis</li>
+                    <li>HTML Dasar</li>
+                    <li>CSS Dasar</li>
+                    <li>PHP Dasar</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+            <div class="section-title">Hobi</div>
+            <div class="hobbies">
+                <ul>
+                    <li>Membaca</li>
+                    <li>Menulis</li>
+                    <li>Menonton Film</li>
+                </ul>
+            </div>
+            <div class="section-title">Bahasa</div>
+            <div class="languages">
+                <ul>
+                    <li>Bahasa Indonesia</li>
+                    <li>Bahasa Inggris (Dasar)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv-main">
+            <h3>Tentang Saya</h3>
+            <p>Perkenalkan saya Suci khairunnisa biasa dipanggil suci saat ini berusia 19 tahun, Saya merupakan lulusan SMA jurusan IPA. Memiliki kemampuan dalam mengoperasikan komputer, dan mampu menggunakan software microsoft Office dengan baik, Mampu bekerja dengan tim maupun individual, disiplin, teliti, memiliki kesadaran dan kepedulian serta bertanggung jawab. Memiliki minat karir dalam bidang teknologi serta terbuka untuk kesempatan karir lainnya.</p>
+
+            <section>
+                <h3>Riwayat Pendidikan</h3>
+                <ul>
+                    <li><strong>Universitas Yatsi Madani</strong> - Jurusan Ilmu Komputer (2023-sekarang)</li>
+                    <li><strong>SMA Negeri 1 Kabupaten Tangerang</strong> - Jurusan IPA (2020-2023)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Pengalaman Kerja</h3>
+                <ul>
+                    <li><strong>Operator Produksi</strong> - PT. Adis Dimension Footwear (2024-sekarang)</li>
+                </ul>
+            </section>
+
+            <section class="organization-info">
+                <h3>Pengalaman Organisasi</h3>
+                <ul>
+                    <li><strong>Himpunan Mahasiswa Komputer (Himakom) </strong> - Anggota Divisi Akademik (2024-sekarang)</li>
+                    <li><strong>Pergerakan Mahasiswa Islam Indonesia</strong> - Anggota Aktif (2021-2023)</li>
+                    <li><strong>Badan Eksekutif Mahasiswa</strong> - Anggota Kementrian Eksternal (2023)</li>
+                </ul>
+            </section>
+
+            <section class="campus-info">
+                <h3>Seputar Kampus</h3>
+                <p><strong>Universitas:</strong> Universitas Yatsi Madani</p>
+                <p><strong>Fakultas:</strong> Teknologi Dan Bisnis</p>
+                <p><strong>Alamat:</strong> Jl. Aria Santika No.40A, RT.005/RW.011, Margasari, Kec. Karawaci, Kota Tangerang, Banten 15114.</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
